@@ -1,4 +1,4 @@
-package ru.itpark.model.tariffsTurnOn;
+package ru.itpark.model.turnOn;
 
 import ru.itpark.model.Tariff;
 import java.util.ArrayList;
