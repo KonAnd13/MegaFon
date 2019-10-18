@@ -1,9 +1,9 @@
 package ru.itpark.model;
 
-public abstract class Internet extends Tariff {
+public abstract class InternetTariff extends Tariff {
     private String internet;
 
-    public Internet(String id, String url, String name, int subscriptionFee, String territoryOfAction, String internet) {
+    public InternetTariff(String id, String url, String name, int subscriptionFee, String territoryOfAction, String internet) {
         super(id, url, name, subscriptionFee, territoryOfAction);
         this.internet = internet;
     }
