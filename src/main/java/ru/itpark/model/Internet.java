@@ -3,8 +3,8 @@ package ru.itpark.model;
 public abstract class Internet extends Tariff {
     private String internet;
 
-    public Internet(String url, String name, int subscriptionFee, String territoryOfAction, String internet) {
-        super(url, name, subscriptionFee, territoryOfAction);
+    public Internet(String id, String url, String name, int subscriptionFee, String territoryOfAction, String internet) {
+        super(id, url, name, subscriptionFee, territoryOfAction);
         this.internet = internet;
     }
 

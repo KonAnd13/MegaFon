@@ -9,8 +9,8 @@ public abstract class TurnOn extends Tariff {
     private String incomingCalls;
     private ArrayList<String> giftOptions;
 
-    public TurnOn(String url, String name, int subscriptionFee, String territoryOfAction, int minutes, String internet, String callsToNumbersMegafon, String incomingCalls, ArrayList<String> giftOptions) {
-        super(url, name, subscriptionFee, territoryOfAction);
+    public TurnOn(String id, String url, String name, int subscriptionFee, String territoryOfAction, int minutes, String internet, String callsToNumbersMegafon, String incomingCalls, ArrayList<String> giftOptions) {
+        super(id, url, name, subscriptionFee, territoryOfAction);
         this.minutes = minutes;
         this.internet = internet;
         this.callsToNumbersMegafon = callsToNumbersMegafon;

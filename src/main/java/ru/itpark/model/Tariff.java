@@ -1,12 +1,14 @@
 package ru.itpark.model;
 
 public abstract class Tariff {
+    private String id;
     private String url;
     private String name;
     private int subscriptionFee;
     private String territoryOfAction;
 
-    public Tariff(String url, String name, int subscriptionFee, String territoryOfAction) {
+    public Tariff(String id, String url, String name, int subscriptionFee, String territoryOfAction) {
+        this.id = id;
         this.url = url;
         this.name = name;
         this.subscriptionFee = subscriptionFee;
