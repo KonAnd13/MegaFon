@@ -1,15 +1,15 @@
 package ru.itpark.model;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public abstract class TurnOn extends Tariff {
     private int minutes;
     private String internet;
     private String callsToNumbersMegafon;
     private String incomingCalls;
-    private ArrayList<String> giftOptions;
+    private List<String> giftOptions;
 
-    public TurnOn(String id, String url, String name, int subscriptionFee, String territoryOfAction, int minutes, String internet, String callsToNumbersMegafon, String incomingCalls, ArrayList<String> giftOptions) {
+    public TurnOn(String id, String url, String name, int subscriptionFee, String territoryOfAction, int minutes, String internet, String callsToNumbersMegafon, String incomingCalls, List<String> giftOptions) {
         super(id, url, name, subscriptionFee, territoryOfAction);
         this.minutes = minutes;
         this.internet = internet;
@@ -50,11 +50,11 @@ public abstract class TurnOn extends Tariff {
         this.incomingCalls = incomingCalls;
     }
 
-    public ArrayList<String> getGiftOptions() {
+    public List<String> getGiftOptions() {
         return giftOptions;
     }
 
-    public void setGiftOptions(ArrayList<String> giftOptions) {
+    public void setGiftOptions(List<String> giftOptions) {
         this.giftOptions = giftOptions;
     }
 }
