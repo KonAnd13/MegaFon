@@ -1,6 +1,4 @@
-package ru.itpark.model.internet;
-
-import ru.itpark.model.Tariff;
+package ru.itpark.model;
 
 public abstract class Internet extends Tariff {
     private String internet;

@@ -1,6 +1,5 @@
-package ru.itpark.model.turnOn;
+package ru.itpark.model;
 
-import ru.itpark.model.Tariff;
 import java.util.ArrayList;
 
 public abstract class TurnOn extends Tariff {
